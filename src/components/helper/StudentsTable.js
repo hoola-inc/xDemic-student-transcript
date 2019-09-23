@@ -65,7 +65,7 @@ const data = [
         status: ['complete'],
         creditHours: '2.0',
         percentage: '85 %',
-        grade: 'B'
+        grade: 'C'
     }
 ];
 
