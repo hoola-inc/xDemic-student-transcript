@@ -17,6 +17,7 @@ const columns = [
         title: 'Link to Course Details',
         dataIndex: 'courseDetail',
         key: 'address',
+        render: () => <a href="https://xdemic-api.herokuapp.com/httpcourse"> Course Link </a>
     },
     {
         title: 'Status',
@@ -63,8 +64,8 @@ const data = [
         courseDetail: '123123123132',
         status: ['complete'],
         creditHours: '2.0',
-        percentage: '1',
-        grade: '2.00'
+        percentage: '85 %',
+        grade: 'B'
     }
 ];
 

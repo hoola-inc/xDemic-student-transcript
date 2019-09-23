@@ -7,9 +7,9 @@ const { TabPane } = Tabs;
 
 const renderContent = (column = 2) => (
     <Descriptions size="small">
-        <Descriptions.Item label="Email">School Email</Descriptions.Item>
-        <Descriptions.Item label="Website">School Website</Descriptions.Item>
-        <Descriptions.Item label="Address"> <Icon tyoe="address" /> 0x250bF185Ad0938258758A1360BBb118fc323c817</Descriptions.Item>
+        <Descriptions.Item label="Email"> <a href="#"> roots@gmail.com  </a></Descriptions.Item>
+        <Descriptions.Item label="Website"> <a href="#"> www.roots.com </a> </Descriptions.Item>
+        <Descriptions.Item label="Address"> <Icon tyoe="address" /> <a href="#"> 0x250bF185Ad0938258758A1360BBb118fc323c817 </a></Descriptions.Item>
     </Descriptions>
 );
 
@@ -40,8 +40,8 @@ class PageTopCard extends React.Component {
             <div>
                 <div>
                     <PageHeader
-                        title="School Name"
-                        subTitle="School Address"
+                        title="Roots"
+                        subTitle="Roots School E11/4 Islamabad"
                         footer={
                             <Tabs>
                                 <TabPane tab="" key="1" />

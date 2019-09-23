@@ -14,7 +14,7 @@ class Header extends React.Component {
             <div>
                 <Row>
                     <Col span={6} offset={4}>
-                    <PageHeader title={this.title} subTitle="High School" />
+                    <PageHeader title={this.title} subTitle="of student hamza ikram" />
                     </Col>
                 </Row>
 
